@@ -46,35 +46,63 @@ Modern web interfaces enforce an illusion of permanence and control. Every click
 
 ---
 
-## 🚀 Installation
+## 🚀 Quick Start
 
-### Method 1: Load as Unpacked Extension (Developer Mode)
+> **No build tools required!** Mirror World is a standalone Chrome extension — just clone and load.
 
-1. **Download or Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/systemcollapse.git
-   cd systemcollapse
-   ```
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/systemcollapse.git
+cd systemcollapse/mirror-world
 
-2. **Open Chrome Extensions Page**
-   - Navigate to `chrome://extensions/` in your Chrome browser
-   - Or go to Menu → More Tools → Extensions
+# 2. Load in Chrome → chrome://extensions/ → Enable Developer Mode → Load Unpacked → Select this folder
 
-3. **Enable Developer Mode**
-   - Toggle the "Developer mode" switch in the top-right corner
+# 3. Click the extension icon on any webpage to activate!
+```
 
-4. **Load the Extension**
-   - Click the "Load unpacked" button
-   - Navigate to and select the `mirror-world` folder inside this repository
-   - The extension should now appear in your extensions list
+---
 
-5. **Pin the Extension** (Recommended)
-   - Click the puzzle piece icon (🧩) in the Chrome toolbar
-   - Find "Mirror World" and click the pin icon to keep it visible
+## 📦 Installation
 
-### Method 2: Quick Console Activation
+### Prerequisites
 
-If the extension is already loaded, you can also trigger it from the browser console:
+- **Google Chrome** (v88+), Edge, or any Chromium-based browser
+- No Node.js, npm, or build tools required
+
+### Step-by-Step Setup
+
+#### Step 1: Get the Code
+
+```bash
+git clone https://github.com/your-username/systemcollapse.git
+cd systemcollapse
+```
+
+Or [download the ZIP](https://github.com/your-username/systemcollapse/archive/refs/heads/main.zip) and extract it.
+
+#### Step 2: Open Chrome Extensions Page
+
+Navigate to `chrome://extensions/` in your Chrome browser, or:
+- **Menu** → **More Tools** → **Extensions**
+
+#### Step 3: Enable Developer Mode
+
+Toggle the **"Developer mode"** switch in the top-right corner of the extensions page.
+
+#### Step 4: Load the Extension
+
+1. Click the **"Load unpacked"** button
+2. Navigate to and select the `mirror-world` folder inside this repository
+3. ✅ The extension should now appear in your extensions list with the Mirror World icon
+
+#### Step 5: Pin the Extension (Recommended)
+
+1. Click the puzzle piece icon (🧩) in the Chrome toolbar
+2. Find **"Mirror World"** and click the pin icon 📌 to keep it visible
+
+### Console Commands (Advanced)
+
+If the extension is already loaded, you can trigger it from the browser DevTools console:
 
 ```javascript
 // Start the collapse
